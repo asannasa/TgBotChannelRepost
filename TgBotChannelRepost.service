@@ -1,0 +1,12 @@
+[Unit]
+Description=TgBotChannelRepost
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/????/TgBotChannelRepost/venv/bin/python /home/????/TgBotChannelRepost/main.py
+WorkingDirectory=/home/????/TgBotChannelRepost
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
