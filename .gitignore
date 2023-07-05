@@ -5,5 +5,5 @@
 .env
 session_name.session
 session_name
-chat_id.txt.temp
-config.py.temp
+config.py
+TgBot.log
